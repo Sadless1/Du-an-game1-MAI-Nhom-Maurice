@@ -1,2 +1,3 @@
 Dự án game chủ đề sử việt thời kì kháng chiến chống Mĩ của nhóm Maurice
-Thành viên: Khánh,Huy,Thuận,Tùng
+Thành viên: 
+Cung Đỗ Hoàng Khánh,Huy,Thuận,Tùng
