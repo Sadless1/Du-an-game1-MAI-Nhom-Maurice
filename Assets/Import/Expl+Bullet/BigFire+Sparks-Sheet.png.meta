@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 5dcdfd51f47bf4440a7a594301553655
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4863846812320260458
+    second: BigFire+Sparks-Sheet_0
+  - first:
+      213: 5061078680331851026
+    second: BigFire+Sparks-Sheet_1
+  - first:
+      213: -2457599452208600529
+    second: BigFire+Sparks-Sheet_2
+  - first:
+      213: -8486082439271386727
+    second: BigFire+Sparks-Sheet_3
+  - first:
+      213: 8251423016625900385
+    second: BigFire+Sparks-Sheet_4
+  - first:
+      213: 5796384872323543011
+    second: BigFire+Sparks-Sheet_5
+  - first:
+      213: -8304108842184935531
+    second: BigFire+Sparks-Sheet_6
+  - first:
+      213: -8517639752600359312
+    second: BigFire+Sparks-Sheet_7
+  - first:
+      213: 6494909137635323164
+    second: BigFire+Sparks-Sheet_8
+  - first:
+      213: -5125004036404353316
+    second: BigFire+Sparks-Sheet_9
+  - first:
+      213: 2934886325618729313
+    second: BigFire+Sparks-Sheet_10
+  - first:
+      213: 6895227678531262033
+    second: BigFire+Sparks-Sheet_11
+  - first:
+      213: -4585083547005077246
+    second: BigFire+Sparks-Sheet_12
+  - first:
+      213: -4054753887832863776
+    second: BigFire+Sparks-Sheet_13
+  - first:
+      213: 1707245485235251814
+    second: BigFire+Sparks-Sheet_14
+  - first:
+      213: 3296126161309319058
+    second: BigFire+Sparks-Sheet_15
+  - first:
+      213: -9193207708359708367
+    second: BigFire+Sparks-Sheet_16
+  - first:
+      213: -7560926418772882918
+    second: BigFire+Sparks-Sheet_17
+  - first:
+      213: -432177796565323699
+    second: BigFire+Sparks-Sheet_18
+  - first:
+      213: 9014699427249157812
+    second: BigFire+Sparks-Sheet_19
+  - first:
+      213: -8253816310217894249
+    second: BigFire+Sparks-Sheet_20
+  - first:
+      213: -715548376180106024
+    second: BigFire+Sparks-Sheet_21
+  - first:
+      213: 3066317466793819857
+    second: BigFire+Sparks-Sheet_22
+  - first:
+      213: -3595953362565268474
+    second: BigFire+Sparks-Sheet_23
+  - first:
+      213: -5410897911484588144
+    second: BigFire+Sparks-Sheet_24
+  - first:
+      213: -8444885810936932073
+    second: BigFire+Sparks-Sheet_25
+  - first:
+      213: 663924259406421301
+    second: BigFire+Sparks-Sheet_26
+  - first:
+      213: -1750026779513683291
+    second: BigFire+Sparks-Sheet_27
+  - first:
+      213: -581557046613818974
+    second: BigFire+Sparks-Sheet_28
+  - first:
+      213: 3402812708490375305
+    second: BigFire+Sparks-Sheet_29
+  - first:
+      213: -6856036226891642417
+    second: BigFire+Sparks-Sheet_30
+  - first:
+      213: 6613843304312448475
+    second: BigFire+Sparks-Sheet_31
+  - first:
+      213: 4367946424678048096
+    second: BigFire+Sparks-Sheet_32
+  - first:
+      213: -7667341719318039970
+    second: BigFire+Sparks-Sheet_33
+  - first:
+      213: -7775374677961357366
+    second: BigFire+Sparks-Sheet_34
+  - first:
+      213: 32181608928138469
+    second: BigFire+Sparks-Sheet_35
+  - first:
+      213: 6829347373651238865
+    second: BigFire+Sparks-Sheet_36
+  - first:
+      213: 7308244247073571863
+    second: BigFire+Sparks-Sheet_37
+  - first:
+      213: 4435870936503644690
+    second: BigFire+Sparks-Sheet_38
+  - first:
+      213: 8468935539809133091
+    second: BigFire+Sparks-Sheet_39
+  - first:
+      213: 1679939543006539837
+    second: BigFire+Sparks-Sheet_40
+  - first:
+      213: -3687644860910692004
+    second: BigFire+Sparks-Sheet_41
+  - first:
+      213: -373632707447215348
+    second: BigFire+Sparks-Sheet_42
+  - first:
+      213: -3656300428069474071
+    second: BigFire+Sparks-Sheet_43
+  - first:
+      213: -6433472696074473342
+    second: BigFire+Sparks-Sheet_44
+  - first:
+      213: 757536910507444167
+    second: BigFire+Sparks-Sheet_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61e342f7eadf7340800000000000000
+      internalID: 4863846812320260458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2159b79be309c3640800000000000000
+      internalID: 5061078680331851026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a69e2b15ad4edd0800000000000000
+      internalID: -2457599452208600529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9917c809bf06b3a80800000000000000
+      internalID: -8486082439271386727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b08750481f28270800000000000000
+      internalID: 8251423016625900385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efea40b455e07050800000000000000
+      internalID: 5796384872323543011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f26d4101e1cc80800000000000000
+      internalID: -8304108842184935531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e628df5c34bc980800000000000000
+      internalID: -8517639752600359312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 36
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d213df27d822a50800000000000000
+      internalID: 6494909137635323164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6eca97bf350e8b0800000000000000
+      internalID: -5125004036404353316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 41
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e7ae309fcab820800000000000000
+      internalID: 2934886325618729313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1561c488a05c0bf50800000000000000
+      internalID: 6895227678531262033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209364b8ec28e50c0800000000000000
+      internalID: -4585083547005077246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb861072de9ab7c0800000000000000
+      internalID: -4054753887832863776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a26d339ba51b710800000000000000
+      internalID: 1707245485235251814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb6b3b7413ebd20800000000000000
+      internalID: 3296126161309319058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13136d40c4a2b6080800000000000000
+      internalID: -9193207708359708367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a0d2c4b71321790800000000000000
+      internalID: -7560926418772882918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40b9e37598900af0800000000000000
+      internalID: -432177796565323699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 0
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b67a1efd55aa1d70800000000000000
+      internalID: 9014699427249157812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 0
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7961324ebcd847d80800000000000000
+      internalID: -8253816310217894249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 0
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc5d220b8cd116f0800000000000000
+      internalID: -715548376180106024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de32d07d7fbd8a20800000000000000
+      internalID: 3066317466793819857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cfc6b087b981ec0800000000000000
+      internalID: -3595953362565268474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fde068401a8e4b0800000000000000
+      internalID: -5410897911484588144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7191e5e091dbdca80800000000000000
+      internalID: -8444885810936932073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d1fa7a89bb63900800000000000000
+      internalID: 663924259406421301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a28aa38ae7a6b7e0800000000000000
+      internalID: -1750026779513683291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 0
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a145f382f4ede7f0800000000000000
+      internalID: -581557046613818974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980f0c62128393f20800000000000000
+      internalID: 3402812708490375305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc90ae060677ad0a0800000000000000
+      internalID: -6856036226891642417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5a3a1917719cb50800000000000000
+      internalID: 6613843304312448475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0616fd081201e9c30800000000000000
+      internalID: 4367946424678048096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52f3806451289590800000000000000
+      internalID: -7667341719318039970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 21
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7cb841de1581490800000000000000
+      internalID: -7775374677961357366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e45678b005527000800000000000000
+      internalID: 32181608928138469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 15
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df9a3eb047b6ce50800000000000000
+      internalID: 6829347373651238865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714cc960c691c6560800000000000000
+      internalID: 7308244247073571863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21277cf4d116f8d30800000000000000
+      internalID: 4435870936503644690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 23
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322210cc004b78570800000000000000
+      internalID: 8468935539809133091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3079091d18505710800000000000000
+      internalID: 1679939543006539837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c599f97798ad2dcc0800000000000000
+      internalID: -3687644860910692004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b242c380790daf0800000000000000
+      internalID: -373632707447215348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e07fc0f126324dc0800000000000000
+      internalID: -3656300428069474071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 20
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2807e4e3ba6b7b6a0800000000000000
+      internalID: -6433472696074473342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigFire+Sparks-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 22
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c70b077ecf438a00800000000000000
+      internalID: 757536910507444167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BigFire+Sparks-Sheet_0: 4863846812320260458
+      BigFire+Sparks-Sheet_1: 5061078680331851026
+      BigFire+Sparks-Sheet_10: 2934886325618729313
+      BigFire+Sparks-Sheet_11: 6895227678531262033
+      BigFire+Sparks-Sheet_12: -4585083547005077246
+      BigFire+Sparks-Sheet_13: -4054753887832863776
+      BigFire+Sparks-Sheet_14: 1707245485235251814
+      BigFire+Sparks-Sheet_15: 3296126161309319058
+      BigFire+Sparks-Sheet_16: -9193207708359708367
+      BigFire+Sparks-Sheet_17: -7560926418772882918
+      BigFire+Sparks-Sheet_18: -432177796565323699
+      BigFire+Sparks-Sheet_19: 9014699427249157812
+      BigFire+Sparks-Sheet_2: -2457599452208600529
+      BigFire+Sparks-Sheet_20: -8253816310217894249
+      BigFire+Sparks-Sheet_21: -715548376180106024
+      BigFire+Sparks-Sheet_22: 3066317466793819857
+      BigFire+Sparks-Sheet_23: -3595953362565268474
+      BigFire+Sparks-Sheet_24: -5410897911484588144
+      BigFire+Sparks-Sheet_25: -8444885810936932073
+      BigFire+Sparks-Sheet_26: 663924259406421301
+      BigFire+Sparks-Sheet_27: -1750026779513683291
+      BigFire+Sparks-Sheet_28: -581557046613818974
+      BigFire+Sparks-Sheet_29: 3402812708490375305
+      BigFire+Sparks-Sheet_3: -8486082439271386727
+      BigFire+Sparks-Sheet_30: -6856036226891642417
+      BigFire+Sparks-Sheet_31: 6613843304312448475
+      BigFire+Sparks-Sheet_32: 4367946424678048096
+      BigFire+Sparks-Sheet_33: -7667341719318039970
+      BigFire+Sparks-Sheet_34: -7775374677961357366
+      BigFire+Sparks-Sheet_35: 32181608928138469
+      BigFire+Sparks-Sheet_36: 6829347373651238865
+      BigFire+Sparks-Sheet_37: 7308244247073571863
+      BigFire+Sparks-Sheet_38: 4435870936503644690
+      BigFire+Sparks-Sheet_39: 8468935539809133091
+      BigFire+Sparks-Sheet_4: 8251423016625900385
+      BigFire+Sparks-Sheet_40: 1679939543006539837
+      BigFire+Sparks-Sheet_41: -3687644860910692004
+      BigFire+Sparks-Sheet_42: -373632707447215348
+      BigFire+Sparks-Sheet_43: -3656300428069474071
+      BigFire+Sparks-Sheet_44: -6433472696074473342
+      BigFire+Sparks-Sheet_45: 757536910507444167
+      BigFire+Sparks-Sheet_5: 5796384872323543011
+      BigFire+Sparks-Sheet_6: -8304108842184935531
+      BigFire+Sparks-Sheet_7: -8517639752600359312
+      BigFire+Sparks-Sheet_8: 6494909137635323164
+      BigFire+Sparks-Sheet_9: -5125004036404353316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
