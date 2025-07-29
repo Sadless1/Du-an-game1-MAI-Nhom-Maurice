@@ -3,6 +3,7 @@
 [Bb]uild/
 [Bb]uilds/
 Obj/
+[Uu]serSettings/
 *.csproj
 *.unityproj
 *.sln
