@@ -15,7 +15,7 @@ public class FakeDOS : MonoBehaviour
 
     private string[] lines = new string[]
     {
-        "fakeDOS 54.75 activated",
+        "fakeDos 54.75 activated",
         "...",
         "c:/games/MAI/MAI.exe",
         "loading...",
