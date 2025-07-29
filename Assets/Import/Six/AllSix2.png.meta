@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 076b1e6b002f8c44e90d75ddbb72fab4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2188155033281654470
+    second: AllSix2 1_0
+  - first:
+      213: 57544011997294312
+    second: AllSix2 1_1
+  - first:
+      213: -3616074919428208130
+    second: AllSix2 1_2
+  - first:
+      213: -4312629802888444085
+    second: AllSix2 1_3
+  - first:
+      213: 4933810245081932152
+    second: AllSix2 1_4
+  - first:
+      213: -9156201502929888527
+    second: AllSix2 1_5
+  - first:
+      213: -8168063026624866772
+    second: AllSix2 1_6
+  - first:
+      213: 5509292887551924584
+    second: AllSix2 1_7
+  - first:
+      213: -9017622241458248787
+    second: AllSix2 1_8
+  - first:
+      213: 1886132879372314180
+    second: AllSix2 1_9
+  - first:
+      213: 6523963471270864770
+    second: AllSix2 1_10
+  - first:
+      213: -1975087497624681379
+    second: AllSix2 1_11
+  - first:
+      213: 6865694630100974289
+    second: AllSix2 1_12
+  - first:
+      213: -4772344030465485692
+    second: AllSix2 1_13
+  - first:
+      213: 6833708174570566908
+    second: AllSix2 1_14
+  - first:
+      213: 7964232725925974088
+    second: AllSix2 1_15
+  - first:
+      213: -1487146299223088634
+    second: AllSix2 1_16
+  - first:
+      213: 8961355151885522425
+    second: AllSix2 1_17
+  - first:
+      213: -4254557218271078845
+    second: AllSix2 1_18
+  - first:
+      213: 3239443160685902130
+    second: AllSix2 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AllSix2 1_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce6c30d863ed5e10800000000000000
+      internalID: 2188155033281654470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeac0a59ff6cc000800000000000000
+      internalID: 57544011997294312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef94842050f11ddc0800000000000000
+      internalID: -3616074919428208130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4742172b067624c0800000000000000
+      internalID: -4312629802888444085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 82
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871aa47074a687440800000000000000
+      internalID: 4933810245081932152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa57f5ae33aee080800000000000000
+      internalID: -9156201502929888527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 82
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26d50b14f535ae80800000000000000
+      internalID: -8168063026624866772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 82
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8695e1611b0f47c40800000000000000
+      internalID: 5509292887551924584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3283b4958fad280800000000000000
+      internalID: -9017622241458248787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.582229, y: 0.62334365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446eb225cd3ec2a10800000000000000
+      internalID: 1886132879372314180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 23
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5723616, y: 0.7122036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28769b03636c98a50800000000000000
+      internalID: 6523963471270864770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 36
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5404c7a2641794e0800000000000000
+      internalID: -1975087497624681379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 36
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.49269146, y: 0.3983352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dab97bd3e8d74f50800000000000000
+      internalID: 6865694630100974289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 36
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48903784, y: 0.26564753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4841626a36a35cdb0800000000000000
+      internalID: -4772344030465485692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 37
+        width: 31
+        height: 19
+      alignment: 9
+      pivot: {x: 0.7270582, y: 0.52423596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf436f3d06536de50800000000000000
+      internalID: 6833708174570566908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 37
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.63442725, y: 0.52423596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840db59c773a68e60800000000000000
+      internalID: 7964232725925974088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 38
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60265c1f1589c5be0800000000000000
+      internalID: -1487146299223088634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 15
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5d04608012d5c70800000000000000
+      internalID: 8961355151885522425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 14
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.41705653, y: 0.5276982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346d06860c6c4f4c0800000000000000
+      internalID: -4254557218271078845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllSix2 1_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 14
+        width: 31
+        height: 19
+      alignment: 9
+      pivot: {x: 0.30477315, y: 0.5276982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23970ce2460d4fc20800000000000000
+      internalID: 3239443160685902130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b46537c548a280409b1889843b14906
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AllSix2 1_0: 2188155033281654470
+      AllSix2 1_1: 57544011997294312
+      AllSix2 1_10: 6523963471270864770
+      AllSix2 1_11: -1975087497624681379
+      AllSix2 1_12: 6865694630100974289
+      AllSix2 1_13: -4772344030465485692
+      AllSix2 1_14: 6833708174570566908
+      AllSix2 1_15: 7964232725925974088
+      AllSix2 1_16: -1487146299223088634
+      AllSix2 1_17: 8961355151885522425
+      AllSix2 1_18: -4254557218271078845
+      AllSix2 1_19: 3239443160685902130
+      AllSix2 1_2: -3616074919428208130
+      AllSix2 1_3: -4312629802888444085
+      AllSix2 1_4: 4933810245081932152
+      AllSix2 1_5: -9156201502929888527
+      AllSix2 1_6: -8168063026624866772
+      AllSix2 1_7: 5509292887551924584
+      AllSix2 1_8: -9017622241458248787
+      AllSix2 1_9: 1886132879372314180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

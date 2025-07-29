@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: b51cc35268bc1b644b932c41c8d80b14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 217192047022198102
+    second: Fire+Sparks-Sheet_0
+  - first:
+      213: 8303181775059068671
+    second: Fire+Sparks-Sheet_1
+  - first:
+      213: -8862926905630745024
+    second: Fire+Sparks-Sheet_2
+  - first:
+      213: 6355986036165056768
+    second: Fire+Sparks-Sheet_3
+  - first:
+      213: 6709944746019152292
+    second: Fire+Sparks-Sheet_4
+  - first:
+      213: 6364517135629600063
+    second: Fire+Sparks-Sheet_5
+  - first:
+      213: 6863232869044346232
+    second: Fire+Sparks-Sheet_6
+  - first:
+      213: 2839084523745776301
+    second: Fire+Sparks-Sheet_7
+  - first:
+      213: 3796017995452969559
+    second: Fire+Sparks-Sheet_8
+  - first:
+      213: 1734234170855555213
+    second: Fire+Sparks-Sheet_9
+  - first:
+      213: 1536862608720429792
+    second: Fire+Sparks-Sheet_10
+  - first:
+      213: 3381009316842742974
+    second: Fire+Sparks-Sheet_11
+  - first:
+      213: -3607181129209868120
+    second: Fire+Sparks-Sheet_12
+  - first:
+      213: 8318965886586237296
+    second: Fire+Sparks-Sheet_13
+  - first:
+      213: 6884212500481897058
+    second: Fire+Sparks-Sheet_14
+  - first:
+      213: 4349624604732716229
+    second: Fire+Sparks-Sheet_15
+  - first:
+      213: 7109618459706400087
+    second: Fire+Sparks-Sheet_16
+  - first:
+      213: -7397284978699198343
+    second: Fire+Sparks-Sheet_17
+  - first:
+      213: 8996960041040069454
+    second: Fire+Sparks-Sheet_18
+  - first:
+      213: -3907661587718967264
+    second: Fire+Sparks-Sheet_19
+  - first:
+      213: 1085780861199399601
+    second: Fire+Sparks-Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.54157746, y: 0.11540497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d4cca140f930300800000000000000
+      internalID: 217192047022198102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47574615, y: 0.11748368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e90a7efee800580800000000000000
+      internalID: -8862926905630745024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47574615, y: 0.12995715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00916fadf9ff43850800000000000000
+      internalID: 6355986036165056768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4757465, y: 0.13411489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a168f812338e1d50800000000000000
+      internalID: 6709944746019152292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47574726, y: 0.12787814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35c61c3d9e435850800000000000000
+      internalID: 6364517135629600063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 24
+        height: 35
+      alignment: 9
+      pivot: {x: 0.44846216, y: 0.13203602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d5c227ee91f3f50800000000000000
+      internalID: 6863232869044346232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48015663, y: 0.12787814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da21d2d0554766720800000000000000
+      internalID: 2839084523745776301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4649991, y: 0.13619374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752f6f3314a2ea430800000000000000
+      internalID: 3796017995452969559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 22
+        height: 37
+      alignment: 9
+      pivot: {x: 0.41502658, y: 0.13194546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80803f3acc311810800000000000000
+      internalID: 1734234170855555213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48159373, y: 0.14174254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e28c556668045510800000000000000
+      internalID: 1536862608720429792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.41556895, y: 0.1396615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4a2b07f02cbee20800000000000000
+      internalID: 3381009316842742974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44618085, y: 0.12929094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a014f8efd7b0fdc0800000000000000
+      internalID: -3607181129209868120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.3908636, y: 0.11549278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071b098e567e27370800000000000000
+      internalID: 8318965886586237296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 23
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5148899, y: 0.51193625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262f6898bc2a98f50800000000000000
+      internalID: 6884212500481897058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49536133, y: 0.6951684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4746f5888fc5c30800000000000000
+      internalID: 4349624604732716229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49536133, y: 0.6550058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9702d4e1180975990800000000000000
+      internalID: -7397284978699198343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 20
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49118653, y: 0.6794291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43c3984d7f9bdc70800000000000000
+      internalID: 8996960041040069454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 21
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49160913, y: 0.645888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02072995d7235c9c0800000000000000
+      internalID: -3907661587718967264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire+Sparks-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 0
+        width: 21
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5167876, y: 0.6550058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba35b7c0f7711f00800000000000000
+      internalID: 1085780861199399601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0ca9b1f5bb62d34eb9896ee4fa9380a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fire+Sparks-Sheet_0: 217192047022198102
+      Fire+Sparks-Sheet_1: 8303181775059068671
+      Fire+Sparks-Sheet_10: 1536862608720429792
+      Fire+Sparks-Sheet_11: 3381009316842742974
+      Fire+Sparks-Sheet_12: -3607181129209868120
+      Fire+Sparks-Sheet_13: 8318965886586237296
+      Fire+Sparks-Sheet_14: 6884212500481897058
+      Fire+Sparks-Sheet_15: 4349624604732716229
+      Fire+Sparks-Sheet_16: 7109618459706400087
+      Fire+Sparks-Sheet_17: -7397284978699198343
+      Fire+Sparks-Sheet_18: 8996960041040069454
+      Fire+Sparks-Sheet_19: -3907661587718967264
+      Fire+Sparks-Sheet_2: -8862926905630745024
+      Fire+Sparks-Sheet_20: 1085780861199399601
+      Fire+Sparks-Sheet_3: 6355986036165056768
+      Fire+Sparks-Sheet_4: 6709944746019152292
+      Fire+Sparks-Sheet_5: 6364517135629600063
+      Fire+Sparks-Sheet_6: 6863232869044346232
+      Fire+Sparks-Sheet_7: 2839084523745776301
+      Fire+Sparks-Sheet_8: 3796017995452969559
+      Fire+Sparks-Sheet_9: 1734234170855555213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

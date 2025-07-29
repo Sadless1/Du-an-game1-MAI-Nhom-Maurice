@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 528f901095df4984e883f72738391bd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7157231571568086892
+    second: MAI(cyra)Unity_0
+  - first:
+      213: -5789915531231807936
+    second: MAI(cyra)Unity_1
+  - first:
+      213: 7672826756015209154
+    second: MAI(cyra)Unity_2
+  - first:
+      213: 6589753572083389595
+    second: MAI(cyra)Unity_3
+  - first:
+      213: 2618676640323404001
+    second: MAI(cyra)Unity_4
+  - first:
+      213: -8999913370670118427
+    second: MAI(cyra)Unity_5
+  - first:
+      213: -8763057817243347557
+    second: MAI(cyra)Unity_6
+  - first:
+      213: -3818908291376227910
+    second: MAI(cyra)Unity_7
+  - first:
+      213: -4888159500397029584
+    second: MAI(cyra)Unity_8
+  - first:
+      213: 6492265017029390190
+    second: MAI(cyra)Unity_9
+  - first:
+      213: 1956133155325338708
+    second: MAI(cyra)Unity_10
+  - first:
+      213: 2906153276125281330
+    second: MAI(cyra)Unity_11
+  - first:
+      213: -8487389582317829772
+    second: MAI(cyra)Unity_12
+  - first:
+      213: -8575091953379994318
+    second: MAI(cyra)Unity_13
+  - first:
+      213: -8914110572754699976
+    second: MAI(cyra)Unity_14
+  - first:
+      213: 328826660296652005
+    second: MAI(cyra)Unity_15
+  - first:
+      213: -5300662847032172706
+    second: MAI(cyra)Unity_16
+  - first:
+      213: -7522164139614112109
+    second: MAI(cyra)Unity_17
+  - first:
+      213: -8184517688601404274
+    second: MAI(cyra)Unity_18
+  - first:
+      213: 8895198312439160241
+    second: MAI(cyra)Unity_19
+  - first:
+      213: -4478583645299433988
+    second: MAI(cyra)Unity_20
+  - first:
+      213: 2556455356392391210
+    second: MAI(cyra)Unity_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49039796ec76cac90800000000000000
+      internalID: -7157231571568086892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 57
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0463969208616afa0800000000000000
+      internalID: -5789915531231807936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 57
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca366f384b5b7a60800000000000000
+      internalID: 7672826756015209154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 57
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b945465b5f1837b50800000000000000
+      internalID: 6589753572083389595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e00710b788675420800000000000000
+      internalID: 2618676640323404001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e94be31972e91380800000000000000
+      internalID: -8999913370670118427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 34
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b951009085d536680800000000000000
+      internalID: -8763057817243347557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 34
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9d9b67423800bc0800000000000000
+      internalID: -3818908291376227910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037526d35d4c92cb0800000000000000
+      internalID: -4888159500397029584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 34
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f6bbfa2a8291a50800000000000000
+      internalID: 6492265017029390190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 34
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e780adb4952b10800000000000000
+      internalID: 1956133155325338708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 34
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cf846d10bb45820800000000000000
+      internalID: 2906153276125281330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 34
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471489b942cb63a80800000000000000
+      internalID: -8487389582317829772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 7
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235997a1d472ff880800000000000000
+      internalID: -8575091953379994318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839f66eb9a7ba4480800000000000000
+      internalID: -8914110572754699976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 7
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f8a7fa1a309400800000000000000
+      internalID: 328826660296652005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f598889334076b0800000000000000
+      internalID: -5300662847032172706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 7
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3967e14b197eb9790800000000000000
+      internalID: -7522164139614112109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c13019680ca6e80800000000000000
+      internalID: -8184517688601404274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 7
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd17938cb7127b70800000000000000
+      internalID: 8895198312439160241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 7
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd9d0537efd8d1c0800000000000000
+      internalID: -4478583645299433988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAI(cyra)Unity_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 7
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22c9e91a9a5a7320800000000000000
+      internalID: 2556455356392391210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MAI(cyra)Unity_0: -7157231571568086892
+      MAI(cyra)Unity_1: -5789915531231807936
+      MAI(cyra)Unity_10: 1956133155325338708
+      MAI(cyra)Unity_11: 2906153276125281330
+      MAI(cyra)Unity_12: -8487389582317829772
+      MAI(cyra)Unity_13: -8575091953379994318
+      MAI(cyra)Unity_14: -8914110572754699976
+      MAI(cyra)Unity_15: 328826660296652005
+      MAI(cyra)Unity_16: -5300662847032172706
+      MAI(cyra)Unity_17: -7522164139614112109
+      MAI(cyra)Unity_18: -8184517688601404274
+      MAI(cyra)Unity_19: 8895198312439160241
+      MAI(cyra)Unity_2: 7672826756015209154
+      MAI(cyra)Unity_20: -4478583645299433988
+      MAI(cyra)Unity_21: 2556455356392391210
+      MAI(cyra)Unity_3: 6589753572083389595
+      MAI(cyra)Unity_4: 2618676640323404001
+      MAI(cyra)Unity_5: -8999913370670118427
+      MAI(cyra)Unity_6: -8763057817243347557
+      MAI(cyra)Unity_7: -3818908291376227910
+      MAI(cyra)Unity_8: -4888159500397029584
+      MAI(cyra)Unity_9: 6492265017029390190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
