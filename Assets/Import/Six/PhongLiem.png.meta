@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PhongLiem_0: 2709354338336414121
+      PhongLiem_1: 6347190540695104684
+      PhongLiem_2: 1797476694026383149
+      PhongLiem_3: -8258282165248770329
+      PhongLiem_4: -8137562472626249606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
