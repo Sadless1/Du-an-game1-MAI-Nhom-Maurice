@@ -1,3 +1,5 @@
+"Trước khi mở project Unity, hãy cài Git từ: https://git-scm.com/downloads rồi mở lại Unity Hub."
+
 Dự án game chủ đề sử việt thời kì kháng chiến chống Mĩ của nhóm Maurice
 
 Thành viên: 
