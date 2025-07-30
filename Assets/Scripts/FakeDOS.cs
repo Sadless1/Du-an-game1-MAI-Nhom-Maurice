@@ -9,7 +9,7 @@ public class FakeDOS : MonoBehaviour
     public TextMeshProUGUI dosText;
     public float lineDelay = 0.4f;       // thời gian giữa mỗi dòng
     public float autoSkipTime = 10f;     // skip sau 30 giây
-    public string nextScene = "Level 1";
+    public string nextScene = "TestMenu";
 
     private bool skipped = false;
 
