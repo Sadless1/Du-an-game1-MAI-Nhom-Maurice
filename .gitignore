@@ -1,12 +1,71 @@
+# ========= UNITY SPECIFIC =========
 [Ll]ibrary/
 [Tt]emp/
+[Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-Obj/
-[Uu]serSettings/
+[Ll]ogs/
+MemoryCaptures/
+
+# Ignore auto-generated scene/lightmap cache
+Assets/**/Lightmap*/ 
+Assets/**/LightingData.asset
+Assets/**/ReflectionProbe*/ 
+Assets/**/NavMesh*/ 
+Assets/**/Occlusion*/ 
+Assets/**/GI/
+
+# ========= USER / PERSONAL =========
+UserSettings/
+*.dwlt            # Unity layout file (tránh conflict như bạn bị)
+*.wlt
+*.prefs
+*.pidb
+*.user
+*.suo
+*.userprefs
 *.csproj
 *.unityproj
 *.sln
-*.userprefs
-*.log
+*.tmproj
+*.booproj
+
+# ========= SCENE MERGE AID =========
+*.bak             # Auto scene backups
+*.unity.backup    # Avoid merge issues from other people’s backup scenes
+
+# ========= IDE TOOLS =========
 .vscode/
+.idea/
+*.code-workspace
+*.sln*
+*.iml
+
+# ========= SYSTEM & TEMP =========
+.DS_Store
+*.tmp
+*.temp
+*.swp
+*.lock
+Thumbs.db
+desktop.ini
+
+# ========= UNITY CLOUD / COLLAB =========
+.collab/
+.collabignore
+*.cloud
+*.cloud.meta
+
+# ========= BUILD OUTPUT =========
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+*.x86
+*.x86_64
+*.zip
+*.tar.gz
+
+# ========= CRASH REPORT =========
+sysinfo.txt
