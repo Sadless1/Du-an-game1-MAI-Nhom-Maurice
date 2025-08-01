@@ -24,7 +24,7 @@ public class FakeDOS : MonoBehaviour
         "*            MAI             *",
         "*    (Memorize And Improve)  *",
         "*                            *",
-        "*     Sản phẩm của nhóm 5    *",
+        "* Sản phẩm của nhóm [Maurice]*",
         "*           c2125            *",
         "******************************",
         "initializing brain engine...",
@@ -38,7 +38,7 @@ public class FakeDOS : MonoBehaviour
         "Almost There ",
         "Okay",
         "All done.",
-        "Have fun ,Six  :) ."
+        "Have fun ,[Six]  :) ."
     };
 
     void Start()
