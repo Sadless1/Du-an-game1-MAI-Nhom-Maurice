@@ -19,25 +19,23 @@ public class DialogueManager : MonoBehaviour
     {
         if (!dialoguePanel.activeSelf) return;
 
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             if (isTyping)
             {
+                // Nếu đang gõ chữ → hiện hết luôn dòng hiện tại
                 StopCoroutine(typingCoroutine);
                 dialogueText.text = lines[index];
                 isTyping = false;
             }
             else
             {
+                // Nếu đã gõ xong
                 if (!dialogueEnded && index == lines.Length - 1)
                 {
                     dialogueEnded = true;
-
-                    // Hiện dòng chúc ngay lập tức
                     dialogueText.text = "Được rồi, chúc bạn chơi vui vẻ!";
-
-                    // Chuyển scene ngay lập tức
-                    LoadIntro();
+                    LoadIntro(); // Chuyển scene ngay lập tức
                 }
                 else
                 {
@@ -66,7 +64,7 @@ public class DialogueManager : MonoBehaviour
         index = 0;
         dialogueEnded = false;
         dialoguePanel.SetActive(true);
-        StartCoroutine(TypeLine());
+        typingCoroutine = StartCoroutine(TypeLine());
     }
 
     IEnumerator TypeLine()
@@ -88,7 +86,7 @@ public class DialogueManager : MonoBehaviour
         if (index < lines.Length - 1)
         {
             index++;
-            StartCoroutine(TypeLine());
+            typingCoroutine = StartCoroutine(TypeLine());
         }
         else
         {
@@ -96,8 +94,8 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void  LoadIntro()
+    void LoadIntro()
     {
-        SceneManager.LoadScene("IntroDos"); 
+        SceneManager.LoadScene("IntroDos");
     }
 }

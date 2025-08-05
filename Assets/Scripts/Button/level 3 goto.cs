@@ -5,6 +5,6 @@ public class level3goto : MonoBehaviour
 {
     public void PlayLevel3()
     {
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadScene("Level 3");
     }
 }

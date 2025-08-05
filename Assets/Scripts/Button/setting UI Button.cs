@@ -1,16 +1,11 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class settingUIButton : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    public void Pausegame()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Time.timeScale = 0;
     }
 }

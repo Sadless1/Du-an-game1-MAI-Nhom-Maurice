@@ -2,15 +2,8 @@ using UnityEngine;
 
 public class levelUIbutton : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Continue()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Time.timeScale = 1f;
     }
 }

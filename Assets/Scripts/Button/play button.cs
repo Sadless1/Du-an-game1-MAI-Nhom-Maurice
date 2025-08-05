@@ -5,6 +5,7 @@ public class playbutton : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadScene("Level 1");
+        Time.timeScale = 1f;
     }
 }
