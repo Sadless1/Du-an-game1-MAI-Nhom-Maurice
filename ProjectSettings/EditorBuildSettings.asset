@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/IntroMAI.unity
     guid: 0c14759e0c0716e438b2460f0806d670
+  - enabled: 1
+    path: Assets/Scenes/FakeWInXp.unity
+    guid: fd2301a97e9f1c64fb29a2f340a2a80f
   - enabled: 1
     path: Assets/Scenes/IntroDos.unity
     guid: 0f6dfdf3826340a469ce9a73e3e4f879

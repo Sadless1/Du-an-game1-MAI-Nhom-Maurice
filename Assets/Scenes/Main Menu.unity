@@ -945,6 +945,7 @@ GameObject:
   - component: {fileID: 218780340}
   - component: {fileID: 218780339}
   - component: {fileID: 218780338}
+  - component: {fileID: 218780341}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1128,6 +1129,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed9776f0b9519a24b9439efbc59a9997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &218780341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218780331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4cddb049f76ca43afed6e3cbe86ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &288630060
@@ -4006,9 +4019,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 218780337}
-        m_TargetAssemblyTypeName: exitbutton, Assembly-CSharp
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 218780341}
+        m_TargetAssemblyTypeName: Wingoto, Assembly-CSharp
+        m_MethodName: GotoWin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
