@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Enemy
   - NextLevel
+  - Button
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

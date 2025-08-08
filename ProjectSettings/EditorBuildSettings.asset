@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/IntroMAI.unity
-    guid: 0c14759e0c0716e438b2460f0806d670
   - enabled: 1
     path: Assets/Scenes/FakeWInXp.unity
     guid: fd2301a97e9f1c64fb29a2f340a2a80f
@@ -26,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: ac481cf00b8343943950633a3114fe70
+  - enabled: 1
+    path: Assets/Scenes/IntroMAI.unity
+    guid: 0c14759e0c0716e438b2460f0806d670
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -28,8 +28,13 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Gây sát thương
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(10); // Gây 10 sát thương
+            }
             Destroy(gameObject);
         }
     }
+
 }

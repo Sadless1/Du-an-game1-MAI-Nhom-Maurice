@@ -6,15 +6,11 @@ public class EnemyA : MonoBehaviour
     private Transform player;
     private EnemyMovement movement;
     private EnemyPatrol patrol;
+    private EnemyAttack attack;
 
     [Header("Enemy Settings")]
     public float speed = 2f;
     public float chaseRange = 5f;
-    public float attackRange = 1f;
-    public float attackCooldown = 1.5f;
-
-    private bool isAttacking = false;
-    private float lastAttackTime = -Mathf.Infinity;
 
     private enum EnemyState { Idle, Patrolling, Chasing, Attacking }
     private EnemyState currentState = EnemyState.Patrolling;
@@ -24,10 +20,14 @@ public class EnemyA : MonoBehaviour
         animator = GetComponent<Animator>();
         movement = GetComponent<EnemyMovement>();
         patrol = GetComponent<EnemyPatrol>();
+        attack = GetComponent<EnemyAttack>();
 
         GameObject playerObj = GameObject.FindWithTag("Player");
         if (playerObj != null)
+        {
             player = playerObj.transform;
+            attack.Init(animator, player);
+        }
     }
 
     void Update()
@@ -36,7 +36,7 @@ public class EnemyA : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        if (distance <= attackRange)
+        if (attack.CanAttack())
             currentState = EnemyState.Attacking;
         else if (distance <= chaseRange)
             currentState = EnemyState.Chasing;
@@ -71,31 +71,23 @@ public class EnemyA : MonoBehaviour
         movement.Stop();
         animator.SetBool("isMoving", false);
 
-        Vector2 direction = (player.position - transform.position).normalized;
-        UpdateFacing(direction);
-
-        if (!isAttacking && Time.time - lastAttackTime >= attackCooldown)
-        {
-            isAttacking = true;
-            lastAttackTime = Time.time;
-            animator.SetBool("isAttacking", true);
-        }
+        attack.FaceTarget();
+        attack.TryAttack();
     }
 
     void HandleChase()
     {
-        isAttacking = false;
-        animator.SetBool("isAttacking", false);
+        animator.SetBool("isMoving", true);
+        attack.EndAttack();
 
         Vector2 direction = (player.position - transform.position).normalized;
-        UpdateFacing(direction);
-
+        attack.FaceTarget(); // Dùng lại FaceTarget từ Attack script
         movement.MoveTowards(player.position);
-        animator.SetBool("isMoving", true);
     }
 
     void HandlePatrol()
     {
+        attack.EndAttack();
         patrol.UpdatePatrol();
 
         bool isMoving = !patrol.IsWaiting;
@@ -104,34 +96,12 @@ public class EnemyA : MonoBehaviour
         if (isMoving)
         {
             Vector2 dir = (patrol.CurrentTarget - (Vector2)transform.position).normalized;
-            UpdateFacing(dir);
+            attack.FaceTarget(); // dùng lại
             movement.MoveTowards(patrol.CurrentTarget);
         }
         else
         {
             movement.Stop();
         }
-    }
-
-    void UpdateFacing(Vector2 direction)
-    {
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-        {
-            animator.SetFloat("x", direction.x > 0 ? 1 : -1);
-            animator.SetFloat("y", 0);
-            animator.SetFloat("huong", direction.x > 0 ? 4 : 2);
-        }
-        else
-        {
-            animator.SetFloat("x", 0);
-            animator.SetFloat("y", direction.y > 0 ? 1 : -1);
-            animator.SetFloat("huong", direction.y > 0 ? 3 : 1);
-        }
-    }
-
-    void EndAttack()
-    {
-        isAttacking = false;
-        animator.SetBool("isAttacking", false);
     }
 }
