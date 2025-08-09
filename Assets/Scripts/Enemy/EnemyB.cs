@@ -94,8 +94,7 @@ public class EnemyB : MonoBehaviour
                     lastShootTime = Time.time;
                     Shoot();
                 }
-
-                return;
+return;
             }
             else
             {
@@ -182,5 +181,16 @@ public class EnemyB : MonoBehaviour
                 bulletScript.SetDirection(shootDirection);
             }
         }
+    }
+    public void Die()
+    {
+        // Hủy gun ngay lập tức
+        if (gun != null)
+        {
+            Destroy(gun.gameObject);
+        }
+
+        // Hủy enemy
+        Destroy(gameObject);
     }
 }

@@ -4,16 +4,23 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("Health Settings")]
     public int maxHP = 10;
     private int currentHP;
     private bool isDead = false;
 
+    [Header("Components")]
     private Animator animator;
     private PlayerControllers playerController;
     private SpriteRenderer spriteRenderer;
 
+    [Header("UI")]
     public Image hpFillImage;
 
+    // Quản lý nháy đỏ
+    private Coroutine flashRoutine;
+    private float flashDuration = 0.1f;
+    private float flashTimer = 0f;
 
     void Start()
     {
@@ -23,10 +30,8 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         if (hpFillImage != null)
-            hpFillImage.fillAmount = 1f; // đầy máu
+            hpFillImage.fillAmount = 1f;
     }
-
-
 
     public void TakeDamage(int damage)
     {
@@ -43,11 +48,11 @@ public class PlayerHealth : MonoBehaviour
         {
             Die();
         }
-
-        StartCoroutine(FlashRed());
+        else
+        {
+            FlashRed();
+        }
     }
-
-
 
     void Die()
     {
@@ -60,27 +65,35 @@ public class PlayerHealth : MonoBehaviour
         }
 
         if (playerController != null)
-        {
             playerController.enabled = false;
-        }
 
         Debug.Log("Player đã chết!");
     }
 
-    public bool IsDead()
+    public bool IsDead() => isDead;
+
+    private void FlashRed()
     {
-        return isDead;
+        flashTimer = flashDuration; // reset thời gian đỏ
+        if (flashRoutine == null)
+            flashRoutine = StartCoroutine(DoFlashRed());
     }
-    private IEnumerator FlashRed()
+
+    private IEnumerator DoFlashRed()
     {
-        if (spriteRenderer != null)
+        Color originalColor = spriteRenderer.color;
+        spriteRenderer.color = Color.red;
+
+        while (flashTimer > 0f)
         {
-            Color originalColor = spriteRenderer.color;
-            spriteRenderer.color = Color.red;
-            yield return new WaitForSeconds(0.1f);
-            spriteRenderer.color = originalColor;
+            flashTimer -= Time.deltaTime;
+            yield return null;
         }
+
+        spriteRenderer.color = originalColor;
+        flashRoutine = null;
     }
+
     public void Heal(int amount)
     {
         if (isDead) return;
@@ -92,8 +105,4 @@ public class PlayerHealth : MonoBehaviour
         if (hpFillImage != null)
             hpFillImage.fillAmount = (float)currentHP / maxHP;
     }
-
-
-
-
 }

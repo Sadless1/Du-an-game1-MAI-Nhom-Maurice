@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FakeWInXp.unity
     guid: fd2301a97e9f1c64fb29a2f340a2a80f
   - enabled: 1
+    path: Assets/Scenes/IntroMAI.unity
+    guid: 8c5a97e29fca3c24da0b93122465a79f
+  - enabled: 1
     path: Assets/Scenes/IntroDos.unity
     guid: 0f6dfdf3826340a469ce9a73e3e4f879
   - enabled: 1
@@ -24,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3.unity
     guid: ac481cf00b8343943950633a3114fe70
   - enabled: 1
-    path: Assets/Scenes/IntroMAI.unity
+    path: Assets/Scenes/OuttroMAI.unity
     guid: 0c14759e0c0716e438b2460f0806d670
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

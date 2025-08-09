@@ -4,18 +4,24 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHP = 30;
+    [Header("Health Settings")]
+    public int maxHP = 10;
     private int currentHP;
+    private bool isDead = false;
+
+    [Header("Components")]
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Rigidbody2D rb;
-    private bool isDead = false;
+
     [Header("Drop Settings")]
-    public GameObject healthItemPrefab;     // Prefab vật phẩm hồi máu
-    [Range(0f, 1f)] public float dropRate = 0.5f; // Tỉ lệ rơi (0.5 = 50%)
+    public GameObject healthItemPrefab;
+    [Range(0f, 1f)] public float dropRate = 0.7f;
 
     [Header("Health UI")]
-    public Slider healthSlider; // Gắn slider từ thanh máu vào đây trong Inspector
+    public Slider healthSlider;
+
+    private Coroutine flashRoutine;
 
     void Start()
     {
@@ -29,12 +35,13 @@ public class EnemyHealth : MonoBehaviour
             healthSlider.maxValue = maxHP;
             healthSlider.value = currentHP;
         }
-
     }
 
     [System.Obsolete]
     public void TakeDamage(int damage, Vector2 knockbackDirection, float knockbackForce = 5f)
     {
+        if (isDead) return;
+
         currentHP -= damage;
         if (healthSlider != null)
         {
@@ -49,7 +56,7 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-            StartCoroutine(FlashRed());
+            FlashRed();
             ApplyKnockback(knockbackDirection, knockbackForce);
         }
     }
@@ -57,25 +64,44 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         if (isDead) return;
+        isDead = true; // Đặt ngay đầu để chặn toàn bộ hành động khác
 
-        isDead = true;
+        // Ngừng mọi di chuyển và tấn công
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.isKinematic = true; // Chặn vật lý
+        }
 
-        TryDropHealthItem(); // gọi trước khi hủy
+        // Nếu có AI khác điều khiển
+        MonoBehaviour[] scripts = GetComponents<MonoBehaviour>();
+        foreach (var script in scripts)
+        {
+            if (script != this) script.enabled = false; // Tắt các script khác
+        }
+        // Hủy gun nếu có
+        EnemyB enemyB = GetComponent<EnemyB>();
+        if (enemyB != null && enemyB.gun != null)
+        {
+            Destroy(enemyB.gun.gameObject);
+        }
+        TryDropHealthItem();
 
         if (animator != null)
         {
+            animator.ResetTrigger("Attack"); // Chặn animation tấn công tiếp
             animator.SetTrigger("Die");
-            Destroy(gameObject, 1.2f); // đợi animation
+            Destroy(gameObject, 1.2f);
         }
         else
         {
             Destroy(gameObject);
         }
+
         if (healthSlider != null)
         {
-            Destroy(healthSlider.gameObject); // Hoặc: healthSlider.gameObject.SetActive(false);
+            Destroy(healthSlider.gameObject);
         }
-
 
         Debug.Log(name + " đã chết");
     }
@@ -88,7 +114,16 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator FlashRed()
+    private void FlashRed()
+    {
+        if (flashRoutine != null)
+        {
+StopCoroutine(flashRoutine);
+        }
+        flashRoutine = StartCoroutine(DoFlashRed());
+    }
+
+    private IEnumerator DoFlashRed()
     {
         if (spriteRenderer != null)
         {
@@ -97,6 +132,7 @@ public class EnemyHealth : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             spriteRenderer.color = originalColor;
         }
+        flashRoutine = null;
     }
 
     [System.Obsolete]
@@ -104,7 +140,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (rb != null && !isDead)
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             rb.AddForce(direction.normalized * force, ForceMode2D.Impulse);
         }
     }

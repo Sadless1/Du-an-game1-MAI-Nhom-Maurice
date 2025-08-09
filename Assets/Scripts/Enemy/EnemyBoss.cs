@@ -220,8 +220,18 @@ public class EnemyBoss : MonoBehaviour
 
             angle += angleStep;
         }
+        
+    }
+    public void Die()
+    {
+        // Hủy gun ngay lập tức
+        if (gun != null)
+        {
+            Destroy(gun.gameObject);
+        }
 
-        Debug.Log("💥 Boss shot circle bullets!");
+        // Hủy enemy
+        Destroy(gameObject);
     }
 
 }
