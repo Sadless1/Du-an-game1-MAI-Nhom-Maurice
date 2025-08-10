@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("GameOver")]
+    public GameOver GO;
+    
     [Header("Health Settings")]
     public int maxHP = 10;
     private int currentHP;
@@ -59,16 +62,21 @@ public class PlayerHealth : MonoBehaviour
         isDead = true;
 
         if (animator != null)
-        {
             animator.SetTrigger("Die");
-            Destroy(gameObject, 1.2f);
-        }
 
         if (playerController != null)
             playerController.enabled = false;
 
-        Debug.Log("Player đã chết!");
+        // Gọi UI Game Over
+        if (GO != null)
+            GO.gameOver();
+
+        // Ẩn sprite thay vì destroy Player
+        spriteRenderer.enabled = false; 
+        GetComponent<Collider2D>().enabled = false;
     }
+
+
 
     public bool IsDead() => isDead;
 
