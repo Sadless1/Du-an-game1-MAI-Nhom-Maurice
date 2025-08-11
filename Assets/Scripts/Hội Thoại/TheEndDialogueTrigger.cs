@@ -9,11 +9,10 @@ public class  TheEndDialogueTrigger : MonoBehaviour
         string[] intro = new string[]
         {
             "Chúc mừng bạn đã hoàn thành trò chơi",
-            "Bạn đã có thứ mà mình muốn ",
-            "Cảm ơn bạn rất nhiều vì đã chơi trò chơi này mặc dù nó đã bị [hỏng] từ lâu ",
- 
+
             "Tạm biệt và hẹn gặp lại",
-            "Thoát ra ngoài desktop[Yes(Z)/No(X)]",
+            "[Mọi dự liệu đã được tải về máy bạn]",
+            "[Chuẩn bị thoát ra ngoài desktop]",
         };
 
         dialogueManager.StartDialogue(intro);
