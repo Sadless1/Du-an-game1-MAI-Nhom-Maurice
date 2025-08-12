@@ -21,8 +21,8 @@ public class PlayerControllers : MonoBehaviour
     public LayerMask enemyLayer;
 
     [Header("Mana Settings")]
-    public int maxMP = 10;
-    public int currentMP = 10;
+    public float currentMP = 10f;
+    public float maxMP = 10f;
     public int mpCostPerShot = 3;
     public float mpRegenInterval = 0.5f;
     private float mpRegenTimer = 0f;
@@ -67,6 +67,9 @@ public class PlayerControllers : MonoBehaviour
             // Đánh cận chiến bằng X
             if (Input.GetKeyDown(KeyCode.X))
             {
+                currentMP -= 0.7f;
+                currentMP = Mathf.Clamp(currentMP, 0, maxMP);
+
                 isAttacking = true;
                 animator.SetTrigger("Attack");
 
@@ -80,12 +83,13 @@ public class PlayerControllers : MonoBehaviour
                 Invoke(nameof(EndAttack), 0.4f);
             }
 
-            // Bắn đạn bằng Z nếu đủ MP
-            if (Input.GetKeyDown(KeyCode.Z) && currentMP >= mpCostPerShot)
+            // Bắn đạn bằng X nếu đủ MP
+            if (Input.GetKeyDown(KeyCode.X)&&currentMP >= mpCostPerShot)
             {
                 ShootMagic();
                 currentMP -= mpCostPerShot;
                 Debug.Log("Player bắn phép! MP còn lại: " + currentMP);
+                
             }
 
             // Hồi MP mỗi 0.5s

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("GameOver")]
-    public GameOver GO;
+    public GameOver DeadManager;
     
     [Header("Health Settings")]
     public int maxHP = 10;
@@ -68,8 +68,8 @@ public class PlayerHealth : MonoBehaviour
             playerController.enabled = false;
 
         // Gọi UI Game Over
-        if (GO != null)
-            GO.gameOver();
+        if (DeadManager != null)
+            DeadManager.gameOver();
 
         // Ẩn sprite thay vì destroy Player
         spriteRenderer.enabled = false; 

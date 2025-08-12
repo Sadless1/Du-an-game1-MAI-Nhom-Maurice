@@ -429,8 +429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dosText: {fileID: 1571048216}
-  lineDelay: 0.3
-  autoSkipTime: 15
+  lineDelay: 0.5
+  autoSkipTime: 10
   nextScene: Main Menu
 --- !u!1 &1571048214
 GameObject:

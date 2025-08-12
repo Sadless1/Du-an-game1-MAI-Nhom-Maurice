@@ -48762,6 +48762,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2097622081}
     - target: {fileID: 8729479812320305831, guid: 57bc118f3d579984d8941ec8823db344, type: 3}
+      propertyPath: DeadManager
+      value: 
+      objectReference: {fileID: 2097622081}
+    - target: {fileID: 8729479812320305831, guid: 57bc118f3d579984d8941ec8823db344, type: 3}
       propertyPath: hpFillImage
       value: 
       objectReference: {fileID: 598691634}

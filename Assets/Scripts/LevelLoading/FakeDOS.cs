@@ -17,26 +17,23 @@ public class FakeDOS : MonoBehaviour
     {
         "fakeDos 54.75 activated",
         "...",
-        "c:/games/MAI/MAI.exe",
+        "D:/VeryOldgames/MAI/MAI.exe",
         "loading...",
 
         "******************************",
-        "*            MAI             *",
-        "*    (Memorize And Improve)  *",
+        "*           [M.A.I]          *",
         "*                            *",
         "* Sản phẩm của nhóm [Maurice]*",
-        "*           c2125            *",
+        "*           c2025            *",
         "******************************",
         "initializing brain engine...",
         "render mode: software",
         "checking sound card...",
-
-        "MAI is connecting to your brain",
-        "MAI is connecting to your dream",
+        "Cant fix the bug [im sorry :( ]",
+        "borring music ...",
+        "MAI is connecting to your machine",
         "MAI is starting the game",
-
-        "Almost There ",
-        "Okay",
+        "",
         "All done.",
         "Have fun ,[Six]  :) ."
     };
@@ -48,13 +45,13 @@ public class FakeDOS : MonoBehaviour
         StartCoroutine(AutoSkipAfterTime());
     }
 
-    void Update()
-    {
-        if (!skipped && Input.anyKeyDown)
-        {
-            SkipToNextScene();
-        }
-    }
+    // void Update()
+    // {
+    //     if (!skipped && Input.anyKeyDown)
+    //     {
+    //         SkipToNextScene();
+    //     }
+    // }
 
     IEnumerator ShowLinesOneByOne()
     {
