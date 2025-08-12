@@ -58,8 +58,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxMP: 10
   currentMP: 10
+  maxMP: 10
   mpCostPerShot: 9
   mpRegenInterval: 0.5
   manaFillImage: {fileID: 0}
@@ -232,7 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3582b915bf3af914e9d6b581f187753d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 150
+  DeadManager: {fileID: 0}
+  maxHP: 125
   hpFillImage: {fileID: 0}
 --- !u!1 &6601437865405665016
 GameObject:
@@ -276,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 2461531229995308932, guid: 41dbda9aef964b447aff4cbde148946d, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131166196618875408, guid: 41dbda9aef964b447aff4cbde148946d, type: 3}
+      propertyPath: orthographic size
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8912728431286394428, guid: 41dbda9aef964b447aff4cbde148946d, type: 3}
       propertyPath: m_LocalPosition.x

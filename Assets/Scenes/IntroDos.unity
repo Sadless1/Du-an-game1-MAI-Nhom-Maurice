@@ -430,8 +430,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dosText: {fileID: 1571048216}
   lineDelay: 0.5
-  autoSkipTime: 10
-  nextScene: Main Menu
+  autoSkipTime: 13
+  nextScene: FakeWinXp
 --- !u!1 &1571048214
 GameObject:
   m_ObjectHideFlags: 0
