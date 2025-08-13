@@ -45,13 +45,13 @@ public class FakeDOS : MonoBehaviour
         StartCoroutine(AutoSkipAfterTime());
     }
 
-    // void Update()
-    // {
-    //     if (!skipped && Input.anyKeyDown)
-    //     {
-    //         SkipToNextScene();
-    //     }
-    // }
+    void Update()
+    {
+        if (!skipped && Input.anyKeyDown)
+        {
+            SkipToNextScene();
+        }
+    }
 
     IEnumerator ShowLinesOneByOne()
     {

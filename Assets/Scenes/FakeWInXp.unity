@@ -566,10 +566,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- Di Chuy\u1EC3n: [M\u0169i t\xEAn]\n- T\u1EA5n c\xF4ng c\u1EADn chi\u1EBFn:
-    [X]\n- T\u1EA5n c\xF4ng t\u1EA7m xa: [Z]\n\n- M\u1EE5c ti\xEAu: Di chuy\u1EC3n
-    \u0111\xE1nh b\u1EA1i k\u1EBB \u0111\u1ECBch ,thu th\u1EADp ch\xECa kh\xF3a qua
-    m\xE0n."
+  m_text: "- Di Chuy\u1EC3n: [M\u0169i t\xEAn]\n- T\u1EA5n c\xF4ng: [X]\n\n- M\u1EE5c
+    ti\xEAu: Di chuy\u1EC3n \u0111\xE1nh b\u1EA1i k\u1EBB \u0111\u1ECBch ,thu th\u1EADp
+    ch\xECa kh\xF3a qua m\xE0n,c\u1EE9 m\u1ED7i m\xE0n 1 b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c
+    1 th\xF4ng tin l\u1ECBch s\u1EED "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 78d36900790bf654891e69e9dee96a3a, type: 2}
   m_sharedMaterial: {fileID: 8540761098598675942, guid: 78d36900790bf654891e69e9dee96a3a, type: 2}
