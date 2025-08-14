@@ -234,6 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeadManager: {fileID: 0}
   maxHP: 125
+  mainCamera: {fileID: 6805955148241538413}
   hpFillImage: {fileID: 0}
 --- !u!1 &6601437865405665016
 GameObject:
