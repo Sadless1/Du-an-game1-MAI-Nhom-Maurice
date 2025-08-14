@@ -11,7 +11,16 @@ public class HistoryManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        // Nếu chưa có CompletedLevel trong PlayerPrefs, đặt về 0
+        if (!PlayerPrefs.HasKey("CompletedLevel"))
+        {
+            PlayerPrefs.SetInt("CompletedLevel", 0);
+            PlayerPrefs.Save();
+            Debug.Log("[HistoryManager] Lần đầu chơi, reset CompletedLevel = 0");
+        }
     }
+
 
     void Start()
     {
