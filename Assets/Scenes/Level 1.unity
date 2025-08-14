@@ -25091,6 +25091,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2944417787262893176, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
+      propertyPath: retreatSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6513427791538898847, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_Name
       value: Boss
@@ -25137,7 +25141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8965043095378942716, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: maxHP
-      value: 80
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8965043095378942716, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: dropRate
@@ -48692,6 +48696,10 @@ PrefabInstance:
       propertyPath: GO
       value: 
       objectReference: {fileID: 2097622081}
+    - target: {fileID: 8729479812320305831, guid: 57bc118f3d579984d8941ec8823db344, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1473810925}
     - target: {fileID: 8729479812320305831, guid: 57bc118f3d579984d8941ec8823db344, type: 3}
       propertyPath: DeadManager
       value: 
@@ -124649,6 +124657,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbbbac84975e07645a539126fbc714a2, type: 3}
+--- !u!4 &1473810925 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6805955148241538413, guid: 57bc118f3d579984d8941ec8823db344, type: 3}
+  m_PrefabInstance: {fileID: 722425678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1489335258
 PrefabInstance:
   m_ObjectHideFlags: 0

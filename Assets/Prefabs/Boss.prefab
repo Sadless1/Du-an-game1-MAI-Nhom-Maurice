@@ -558,9 +558,9 @@ MonoBehaviour:
   firePoint: {fileID: 5226874383773484500}
   preferredDistance: 6
   retreatDuration: 3
-  retreatSpeed: 1
-  timeBullet: 5
-  bulletCount: 12
+  retreatSpeed: 4
+  timeBullet: 10
+  bulletCount: 5
 --- !u!114 &2242990924218335570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0cc445b53dccf409fa67b6b44c8d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 140
+  maxHP: 200
   healthItemPrefab: {fileID: 4123328438541084179, guid: 6d447c1e3f3676f469ce8e5dfa8ab791, type: 3}
   dropRate: 0.5
   healthSlider: {fileID: 7851290169609610626}

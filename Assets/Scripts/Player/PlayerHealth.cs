@@ -17,6 +17,9 @@ public class PlayerHealth : MonoBehaviour
     private PlayerControllers playerController;
     private SpriteRenderer spriteRenderer;
 
+    [Header("Camera")]
+    public Transform mainCamera; // Kéo Main Camera vào đây trong Inspector
+    
     [Header("UI")]
     public Image hpFillImage;
 
@@ -61,6 +64,9 @@ public class PlayerHealth : MonoBehaviour
     {
         isDead = true;
 
+        if (mainCamera != null)
+            mainCamera.SetParent(null);
+        
         if (animator != null)
             animator.SetTrigger("Die");
 
