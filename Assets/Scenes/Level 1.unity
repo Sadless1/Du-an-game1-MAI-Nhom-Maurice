@@ -25085,11 +25085,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2222831086384682799, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2222831086384682799, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2944417787262893176, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: retreatSpeed
@@ -25098,6 +25098,10 @@ PrefabInstance:
     - target: {fileID: 6513427791538898847, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_Name
       value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113865447058782138, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8828367042334284499, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94542,6 +94546,10 @@ PrefabInstance:
       value: Boss (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6513427791538898847, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113865447058782138, guid: 28c811c7d3db8d64b9fb937b7ccf760f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

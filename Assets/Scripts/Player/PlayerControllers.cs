@@ -83,16 +83,16 @@ public class PlayerControllers : MonoBehaviour
                 Invoke(nameof(EndAttack), 0.4f);
             }
 
-            // Bắn đạn bằng X nếu đủ MP
-            if (Input.GetKeyDown(KeyCode.X)&&currentMP >= mpCostPerShot)
+// Bắn phép bằng C nếu đủ MP
+            if (Input.GetKeyDown(KeyCode.C) && currentMP >= mpCostPerShot)
             {
                 ShootMagic();
                 currentMP -= mpCostPerShot;
                 Debug.Log("Player bắn phép! MP còn lại: " + currentMP);
-                
             }
 
-            // Hồi MP mỗi 0.5s
+
+// Hồi MP mỗi 0.5s
             if (currentMP < maxMP)
             {
                 mpRegenTimer -= Time.deltaTime;

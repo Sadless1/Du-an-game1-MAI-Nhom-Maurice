@@ -91,7 +91,7 @@ public class EnemyHealth : MonoBehaviour
         {
             animator.ResetTrigger("Attack"); // Chặn animation tấn công tiếp
             animator.SetTrigger("Die");
-            Destroy(gameObject, 1.2f);
+            Destroy(gameObject, 0.4f);
         }
         else
         {
